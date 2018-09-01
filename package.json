@@ -1,0 +1,25 @@
+{
+  "name": "redisdemoappnodejs",
+  "version": "1.0.0",
+  "description": "Redis cache with node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianVarela/RedisDemoAppNodeJS.git"
+  },
+  "author": "Fabian Varela Bonett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabianVarela/RedisDemoAppNodeJS/issues"
+  },
+  "homepage": "https://github.com/FabianVarela/RedisDemoAppNodeJS#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "dotenv": "^6.0.0",
+    "redis": "^2.8.0"
+  }
+}
